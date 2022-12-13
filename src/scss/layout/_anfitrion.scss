@@ -13,7 +13,7 @@
     border-radius: 2rem;
     @include m.telefono {
         background-size: 100%, 70rem;
-        background-position: center, center 200%;
+        background-position: center, center 100%;
     }
     @include m.tablet {
         grid-template-rows: unset;
