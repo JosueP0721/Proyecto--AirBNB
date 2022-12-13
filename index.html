@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,11 @@
     <title>AirBNB - BEM</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300,400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="build/css/app.css">
 </head>
+
 <body>
     <header class="header">
         <div class="barra contenedor">
@@ -17,33 +20,33 @@
                 <p class="barra__nombre">Viaje</p>
             </div>
             <nav class="barra__navegacion">
-                <a href="#">Lugares para hospedarte</a>
-                <a href="#">Experiencias</a>
-                <a href="#">Experiencias en línea</a>
+                <a class="barra__link" href="#">Lugares para hospedarte</a>
+                <a class="barra__link" href="#">Experiencias</a>
+                <a class="barra__link" href="#">Experiencias en línea</a>
             </nav>
             <nav class="barra__login">
-                <a href="#">Hazte Anfitrión</a>
+                <a class="barra__link" href="#">Hazte Anfitrión</a>
             </nav>
         </div>
-        <form class="formulario">
+        <form class="formulario contenedor">
             <div class="formulario__campo">
                 <label for="ubicación" class="formulario__label">Ubicación</label>
                 <input type="text" class="formulario__input" id="ubicacion" placeholder="¿A donde Viajas?">
             </div>
             <div class="formulario__campo">
                 <label for="llegada" class="formulario__label">Llegada</label>
-                <input type="date" class="formulario__input" id="llegada" >
+                <input type="date" class="formulario__input" id="llegada">
             </div>
             <div class="formulario__campo">
                 <label for="salida" class="formulario__label">Salida</label>
-                <input type="date" class="formulario__input" id="salida" >
+                <input type="date" class="formulario__input" id="salida">
             </div>
             <div class="formulario__campo">
                 <label for="huespedes" class="formulario__label">Huéspedes</label>
-                <input type="number" class="formulario__input" id="huespedes" placeholder="¿Cuántos?" >
+                <input type="number" class="formulario__input" id="huespedes" placeholder="¿Cuántos?">
             </div>
             <div class="formulario__campo">
-                <input type="submit" class="formulario__submit" value="Buscar" >
+                <input type="submit" class="formulario__submit" value="Buscar">
             </div>
         </form>
         <div class="header__busqueda contenedor">
@@ -52,4 +55,5 @@
         </div>
     </header>
 </body>
+
 </html>
